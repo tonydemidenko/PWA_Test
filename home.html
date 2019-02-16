@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project title</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="512x512"  href="/images/icons/icon-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/styles/styles.min.css">
+    <script>
+        if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {  
+        navigator.serviceWorker.register('/sw.js').then(
+            function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+            function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper_flexfix">
+        <div class="wrapper">
+            <header class="header">
+                
+            </header>
+<main class="main">
+    <div class="flex_container">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tenetur repellendus, natus corporis delectus adipisci officia itaque tempore necessitatibus rerum animi facilis aliquam ut recusandae culpa? Blanditiis nesciunt, iusto repellat quaerat maiores impedit eaque sed provident! Ab, incidunt. Incidunt delectus sit cupiditate laboriosam ratione debitis voluptas neque quidem aperiam deserunt asperiores architecto illo sapiente, aut, rem iste cum et provident vero perspiciatis voluptatibus soluta maxime atque numquam. Architecto, animi omnis asperiores rerum laudantium tempore id voluptates ipsum tenetur ipsa iure enim quisquam, optio nam assumenda vitae, earum ut. Nihil nobis fugiat illo ullam amet sit facere voluptate a corporis aut tempora enim earum iste ipsum mollitia necessitatibus ad veniam, iusto in, recusandae laudantium voluptatem doloremque excepturi. Eveniet quos soluta itaque modi et temporibus similique porro rem? Debitis iste porro facere hic saepe dignissimos suscipit veritatis corporis, ab molestias sequi ipsum voluptate corrupti inventore labore. Hic, asperiores! Esse fuga accusantium architecto!</div>
+    </div>
+</main>
+            <footer class="footer">
+            
+            </footer>
+        </div>
+    </div>
+<script src="/js/app.min.js"></script>
+</body>
+</html>
